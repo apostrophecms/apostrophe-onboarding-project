@@ -15,11 +15,14 @@
   </p>
 </div>
 
-This repository is a companion to the [A3 web development tutorials](https://v3.docs.apostrophecms.org/tutorials/introduction.html). The series aims to offer a strong foundation for understanding and effectively utilizing ApostropheCMS.
+This repository is a companion to the [web development tutorials](https://apostrophecms.com/docs/tutorials/introduction.html). The series aims to offer a strong foundation for understanding and effectively utilizing ApostropheCMS.
 
-Throughout these tutorials, we'll incrementally build a sample website using the Apostrophe 3 (A3) Essentials starter kit. This project serves as a learning tool, it is not intended as a plug-and-play template for your individual projects.
+Throughout these tutorials, we'll incrementally build a sample website using the ApostropheCMS Essentials starter kit. This project serves as a learning tool, it is not intended as a plug-and-play template for your individual projects.
 
 For each tutorial in the series, a new branch will be added to this repository containing all the changes from previous tutorials. You can follow along at your own pace. To switch to the relevant branch at the start of each tutorial, you can either use `git switch <branch-name>` on your local machine or examine the branch directly on GitHub.
+
+> [!Note]
+> This project was originally created for ApostropheCMS 3.x. While the shortname references 'a3', it works with current ApostropheCMS version.
 
 ### Getting Started Locally
 1. Clone or fork and clone this repository.
@@ -28,9 +31,9 @@ For each tutorial in the series, a new branch will be added to this repository c
 4. Whenever you switch to a new branch, remember to run `npm update`.
 
 ### About the Database Backup
-The main branch includes a `database-backup` folder. This contains the final project database pre-populated with pieces and pages. Use `npm run copy-db` to copy this database to your local MongoDB server. 
+The main branch includes a `database-backup` folder. This contains the final project database pre-populated with pieces and pages. Use `npm run copy-db` to copy this database to your local MongoDB server.
 
-⚠️ **Important Note**: Doing this will overwrite any existing database for this project, wiping out all your users. You'll need to re-create an admin user afterwards. 
+⚠️ **Important Note**: Doing this will overwrite any existing database for this project, wiping out all your users. You'll need to re-create an admin user afterwards.
 
 > ⚠️ **Special Warning**: If you're following along with the tutorial and your project is named `a3-onboarding-project`, restoring this database will overwrite it. To avoid this, you can:
   - Change the `shortname` in the `app.js` file of this project.
@@ -44,11 +47,11 @@ The `main` branch also contains all the images used in the final site, located i
 
 | Branch | Description | Link |
 |--------|-------------|------|
-| sec2-1b | Project initiation using `apos create a3-onboarding-project`. | [Code Organization](https://v3.docs.apostrophecms.org/tutorials/code-organization.html)|
-| sec2-2-pages | Creation of pages and template changes | [Creating Pages](https://v3.docs.apostrophecms.org/tutorials/pages.html) |
-| sec2-3-assets | Addition of Bootstrap framework and other assets. | [Adding CSS and JS assets](https://v3.docs.apostrophecms.org/tutorials/assets.html) |
-| sec2-4-widgets | Creation of a number of widgets for layout and content presentation. | [Creating Widgets](https://v3.docs.apostrophecms.org/tutorials/widgets.html) |
-| sec2-5-pieces | Creation of the main `review` piece and methods for displaying pieces. | [Creating Pieces](https://v3.docs.apostrophecms.org/tutorials/pieces.html) |
-| sec2-6-navigation | Addition of different types of navigation for pages and social links. | [Building Navigation](https://v3.docs.apostrophecms.org/tutorials/navigation.html) |
-| sec2-7-ui-customization | Introduction to UI personalization. | [Configuring the Admin Bar](https://v3.docs.apostrophecms.org/tutorials/admin-ui.html) |
-| sec2-8-adding-extensions | Exploration of the `SEO` and `Blog` extensions. | [Adding Extensions](https://v3.docs.apostrophecms.org/tutorials/adding-extensions.html) |
+| sec2-1b | Project initiation using `apos create onboarding-project`. | [Code Organization](https://apostrophecms.com/docs/tutorials/code-organization.html)|
+| sec2-2-pages | Creation of pages and template changes | [Creating Pages](https://apostrophecms.com/docs/tutorials/pages.html) |
+| sec2-3-assets | Addition of Bootstrap framework and other assets. | [Adding CSS and JS assets](https://apostrophecms.com/docs/tutorials/assets.html) |
+| sec2-4-widgets | Creation of a number of widgets for layout and content presentation. | [Creating Widgets](https://apostrophecms.com/docs/tutorials/widgets.html) |
+| sec2-5-pieces | Creation of the main `review` piece and methods for displaying pieces. | [Creating Pieces](https://apostrophecms.com/docs/tutorials/pieces.html) |
+| sec2-6-navigation | Addition of different types of navigation for pages and social links. | [Building Navigation](https://apostrophecms.com/docs/tutorials/navigation.html) |
+| sec2-7-ui-customization | Introduction to UI personalization. | [Configuring the Admin Bar](https://apostrophecms.com/docs/tutorials/admin-ui.html) |
+| sec2-8-adding-extensions | Exploration of the `SEO` and `Blog` extensions. | [Adding Extensions](https://apostrophecms.com/docs/tutorials/adding-extensions.html) |
