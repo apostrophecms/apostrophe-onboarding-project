@@ -22,7 +22,7 @@ Throughout these tutorials, we'll incrementally build a sample website using the
 For each tutorial in the series, a new branch will be added to this repository containing all the changes from previous tutorials. You can follow along at your own pace. To switch to the relevant branch at the start of each tutorial, you can either use `git switch <branch-name>` on your local machine or examine the branch directly on GitHub.
 
 > [!Note]
-> This project was originally created for ApostropheCMS 3.x. While the shortname references 'a3', it works with current ApostropheCMS version.
+> This project was originally created for ApostropheCMS 3.x. While the shortname references 'a3', it works with the current ApostropheCMS version.
 
 ### Getting Started Locally
 1. Clone or fork and clone this repository.
