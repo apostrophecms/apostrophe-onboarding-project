@@ -1,3 +1,3 @@
-const bootstrap = require('bootstrap');
+import * as bootstrap from 'bootstrap';
 export default () => {
 };
